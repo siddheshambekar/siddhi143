@@ -70,22 +70,22 @@ background(0);
       pinkBalloon();
     }
   }  
-    if(arrowGroup.isToching(redB)){
+    if(arrowGroup.isTouching(redB)){
       redB.destroyEach();
       arrowGroup.destroyEach();
       score = score+1;
     }
-    if(arrowGroup.isToching(greenB)){
+    if(arrowGroup.isTouching(greenB)){
       greenB.destroyEach();
       arrowGroup.destroyEach();
       score = score+3;
     }
-    if(arrowGroup.isToching(blueB)){
+    if(arrowGroup.isTouching(blueB)){
       blueB.destroyEach();
       arrowGroup.destroyEach();
       score = score+2;
     }
-    if(arrowGroup.isToching(pinkB)){
+    if(arrowGroup.isTouching(pinkB)){
       pinkB.destroyEach();
       arrowGroup.destroyEach();
       score = score+1;

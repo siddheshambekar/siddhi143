@@ -66,6 +66,7 @@ function draw() {
       // Go to end state if sword touching enemy
       if(monsterGroup.isTouching(knife)){
         gameState=END;
+        text(score= score =1);
         gameOversound.play();
         
         //add gameover sound here
